@@ -11,6 +11,9 @@ battTabLowPartHeight=4;
 simpleFixationEarsX=8;
 fixationHolesRadius=3/2;
 
+basicBattHolderWidth=battRadius*2+battHolderWallsThickness*2;
+basicBattHolderLength=battLength+battBoxLenghtAdjustment;
+
 
 module battTabHolder()
 {
